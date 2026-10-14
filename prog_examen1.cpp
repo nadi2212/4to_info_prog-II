@@ -32,7 +32,7 @@ int main(){
             }else{
                 if (vector[0]>0 && vector[1]<0){
                  
-                    cout << "no pertenece al cuadrante de vector";
+                    cout << "no pertenece al cuadrante de vectorr";
                 }
                 }
             }
