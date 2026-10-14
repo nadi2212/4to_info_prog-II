@@ -2,12 +2,12 @@
 using namespace std;
 int main(){
     int n;
-    int mat[n][4];
+    int mat[m][4];
     int vector[n];
     do{
-        cin >> n;
-    }while (n<4);
-    for (int i=0; i<n; i++){
+        cin >> m;
+    }while (m<4);
+    for (int i=0; i<m; i++){
         for (int j=0; j<4; j++){
             cin >> mat[i][j];
         }
@@ -17,7 +17,7 @@ int main(){
           vector[i] = mat[i][j] + mat[i][j];
         }
     }
-    for (int i=0; i<n; i++){
+    for (int i=0; i<m; i++){
             cout << vector[i] << ", ";
         }
     if(n=2){
